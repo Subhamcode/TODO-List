@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="todo">
+      <div class="todo-header">
+        <h2>
+          <marquee behavior="scroll" direction="rigth" scrollamount="22"
+            >YOUR TO DO LIST IS HERE</marquee
+          >
+        </h2>
+      </div>
+      <div class="todo-body">
+        <div class="add-block">
+          <input
+            type="text"
+            class="add-field"
+            placeholder="Type the task you want to add and click +"
+          />
+          <button class="add-button col-3">+</button>
+        </div>
+        <ul class="tasks">
+          <li class="task">
+            <div class="task-checked col-1">
+              <input type="checkbox" />
+            </div>
+            <div class="task-text col-2">A Dummy Task</div>
+            <div class="task-remove col-3"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="design">
+      <h2>Implemented by:- <span class="name">Subham Ag.</span></h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
